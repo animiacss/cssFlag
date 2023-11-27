@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *{ 
+      font-family: 'Baskervville', serif;
+    }
+    .flag{
+      background-color: #22092C;
+      height: 600px;
+      width: 900px;
+      position: relative;
+    }
+    .flag> div{
+      background-color: #872341;
+      height: 300px;
+      width: 900px;
+      position: absolute;
+      top: 150px;
+    }
+    .flag > div >div{
+      background-color: #BE3144;
+      width: 220px;
+      height: 220px;
+      position: absolute;
+      top: 45px;
+      left: 350px;
+      border-radius: 50%;
+    }
+    p {
+      font-size: 5rem;
+      color: #F05941;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+    div > div > p {
+      color: whitesmoke;
+    }
+
+
+    /* Write your CSS Code here */
+    
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
